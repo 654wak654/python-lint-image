@@ -2,6 +2,7 @@ FROM python:3.10-slim
 
 LABEL maintainer="ozan@egitmen.net"
 
+RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install gcc musl-dev -y
 
 RUN pip install 'pylint==2.15.10' \
