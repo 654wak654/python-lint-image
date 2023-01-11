@@ -1,11 +1,25 @@
 # CHANGELOG
 
+## 1.5.0
+
+Updated packges for:
+
+```bash
+    pip install pylint==2.15.10
+    pylint_django==2.5.3
+    pycodestyle==2.10.0
+    flake8==6.0.0
+    black==22.12.0
+    mypy==0.991
+    isort==5.11.4
+```
+
 ## 1.4.0
 
 Updated packges for:
 
 ```bash
-    pip install pylint==2.7.4
+    pylint==2.7.4
     pylint_django==2.4.3
     pycodestyle==2.7.0
     flake8==3.9.1
