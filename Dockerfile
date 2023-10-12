@@ -6,7 +6,6 @@ RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install gcc musl-dev -y
 
 RUN pip install 'pylint==3.0.1' \
-    'pylint_django==2.5.3' \
     'pycodestyle==2.11.0' \
     'flake8==6.1.0' \
     'black==23.9.1' \
